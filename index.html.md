@@ -1,0 +1,160 @@
+<!DOCTYPE html>  
+<html lang="ru">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Ремонт квартир под ключ в Санкт-Петербурге | RemontSPB</title>  
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
+    <style>  
+        .hero-bg {  
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a26?q=80&w=2070') center/cover no-repeat;  
+        }  
+    </style>  
+</head>  
+<body class="bg-gray-50 font-sans">  
+  
+    <!-- Header -->  
+    <header class="bg-white shadow-md sticky top-0 z-50">  
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">  
+            <div class="flex items-center gap-3">  
+                <i class="fas fa-hammer text-3xl text-amber-600"></i>  
+                <h1 class="text-2xl font-bold text-gray-800">RemontSPB</h1>  
+            </div>  
+            <nav class="hidden md:flex gap-8 text-gray-700 font-medium">  
+                <a href="#services" class="hover:text-amber-600 transition">Услуги</a>  
+                <a href="#prices" class="hover:text-amber-600 transition">Цены</a>  
+                <a href="#about" class="hover:text-amber-600 transition">О нас</a>  
+                <a href="#contacts" class="hover:text-amber-600 transition">Контакты</a>  
+            </nav>  
+            <a href="#contacts" class="bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-lg font-semibold transition">  
+                Заказать расчёт  
+            </a>  
+        </div>  
+    </header>  
+  
+    <!-- Hero -->  
+    <section class="hero-bg text-white py-24">  
+        <div class="max-w-6xl mx-auto px-6 text-center">  
+            <h2 class="text-5xl md:text-6xl font-bold mb-6">Ремонт квартир<br>под ключ в СПб</h2>  
+            <p class="text-xl md:text-2xl mb-8">Качественно • Быстро • С гарантией</p>  
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">  
+                <a href="#contacts" class="bg-amber-600 hover:bg-amber-700 text-white text-xl px-10 py-4 rounded-xl font-semibold inline-block">  
+                    Получить бесплатную консультацию  
+                </a>  
+                <a href="tel:+78121234567" class="bg-white text-gray-900 text-xl px-10 py-4 rounded-xl font-semibold inline-flex items-center justify-center gap-2">  
+                    <i class="fas fa-phone"></i> +7 (812) 123-45-67  
+                </a>  
+            </div>  
+        </div>  
+    </section>  
+  
+    <!-- Services -->  
+    <section id="services" class="py-16 bg-white">  
+        <div class="max-w-6xl mx-auto px-6">  
+            <h2 class="text-4xl font-bold text-center mb-12">Наши услуги</h2>  
+            <div class="grid md:grid-cols-3 gap-8">  
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition">  
+                    <i class="fas fa-paint-roller text-4xl text-amber-600 mb-6"></i>  
+                    <h3 class="text-2xl font-semibold mb-3">Косметический ремонт</h3>  
+                    <p class="text-gray-600">Поклейка обоев, покраска, потолки, полы</p>  
+                </div>  
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition">  
+                    <i class="fas fa-tools text-4xl text-amber-600 mb-6"></i>  
+                    <h3 class="text-2xl font-semibold mb-3">Капитальный ремонт</h3>  
+                    <p class="text-gray-600">С нуля до готового жилья</p>  
+                </div>  
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition">  
+                    <i class="fas fa-couch text-4xl text-amber-600 mb-6"></i>  
+                    <h3 class="text-2xl font-semibold mb-3">Дизайнерский ремонт</h3>  
+                    <p class="text-gray-600">По индивидуальному проекту</p>  
+                </div>  
+            </div>  
+        </div>  
+    </section>  
+  
+    <!-- Prices -->  
+    <section id="prices" class="py-16 bg-gray-100">  
+        <div class="max-w-6xl mx-auto px-6">  
+            <h2 class="text-4xl font-bold text-center mb-12">Цены на ремонт</h2>  
+            <div class="grid md:grid-cols-3 gap-8">  
+                <div class="bg-white p-8 rounded-3xl shadow text-center">  
+                    <h3 class="text-2xl font-semibold mb-2">Эконом</h3>  
+                    <div class="text-5xl font-bold text-amber-600 mb-2">от 4 500 ₽</div>  
+                    <p class="text-gray-500">за м²</p>  
+                </div>  
+                <div class="bg-white p-8 rounded-3xl shadow ring-2 ring-amber-600 text-center relative">  
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-amber-600 text-white text-sm px-6 py-1 rounded-full">Популярно</div>  
+                    <h3 class="text-2xl font-semibold mb-2">Стандарт</h3>  
+                    <div class="text-5xl font-bold text-amber-600 mb-2">от 7 900 ₽</div>  
+                    <p class="text-gray-500">за м²</p>  
+                </div>  
+                <div class="bg-white p-8 rounded-3xl shadow text-center">  
+                    <h3 class="text-2xl font-semibold mb-2">Премиум</h3>  
+                    <div class="text-5xl font-bold text-amber-600 mb-2">от 12 000 ₽</div>  
+                    <p class="text-gray-500">за м²</p>  
+                </div>  
+            </div>  
+        </div>  
+    </section>  
+  
+    <!-- About -->  
+    <section id="about" class="py-16 bg-white">  
+        <div class="max-w-6xl mx-auto px-6 text-center">  
+            <h2 class="text-4xl font-bold mb-8">Почему выбирают нас</h2>  
+            <div class="grid md:grid-cols-4 gap-8 text-left">  
+                <div>  
+                    <div class="text-4xl font-bold text-amber-600 mb-2">8+</div>  
+                    <p class="font-medium">лет опыта</p>  
+                </div>  
+                <div>  
+                    <div class="text-4xl font-bold text-amber-600 mb-2">250+</div>  
+                    <p class="font-medium">сданных объектов</p>  
+                </div>  
+                <div>  
+                    <div class="text-4xl font-bold text-amber-600 mb-2">2</div>  
+                    <p class="font-medium">года гарантии</p>  
+                </div>  
+                <div>  
+                    <div class="text-4xl font-bold text-amber-600 mb-2">100%</div>  
+                    <p class="font-medium">соблюдение сроков</p>  
+                </div>  
+            </div>  
+        </div>  
+    </section>  
+  
+    <!-- Contacts -->  
+    <section id="contacts" class="py-16 bg-gray-900 text-white">  
+        <div class="max-w-6xl mx-auto px-6">  
+            <h2 class="text-4xl font-bold text-center mb-12">Связаться с нами</h2>  
+            <div class="grid md:grid-cols-2 gap-12">  
+                <div>  
+                    <p class="text-2xl mb-6">Оставьте заявку — перезвоним в течение 15 минут</p>  
+                    <form class="space-y-6">  
+                        <input type="text" placeholder="Ваше имя" class="w-full px-6 py-4 rounded-xl bg-gray-800 border border-gray-700 focus:border-amber-600 outline-none">  
+                        <input type="tel" placeholder="Телефон" class="w-full px-6 py-4 rounded-xl bg-gray-800 border border-gray-700 focus:border-amber-600 outline-none">  
+                        <textarea placeholder="Что нужно отремонтировать?" rows="4" class="w-full px-6 py-4 rounded-xl bg-gray-800 border border-gray-700 focus:border-amber-600 outline-none"></textarea>  
+                        <button type="submit" class="w-full bg-amber-600 hover:bg-amber-700 py-5 text-xl font-semibold rounded-xl transition">  
+                            Отправить заявку  
+                        </button>  
+                    </form>  
+                </div>  
+                <div class="space-y-6 text-lg">  
+                    <p><i class="fas fa-phone mr-4"></i> +7 (812) 123-45-67</p>  
+                    <p><i class="fas fa-envelope mr-4"></i> info@remontspb.ru</p>  
+                    <p><i class="fas fa-map-marker-alt mr-4"></i> Санкт-Петербург и ЛО</p>  
+                    <p class="text-sm text-gray-400">Работаем ежедневно с 9:00 до 21:00</p>  
+                </div>  
+            </div>  
+        </div>  
+    </section>  
+  
+    <!-- Footer -->  
+    <footer class="bg-black text-gray-400 py-8">  
+        <div class="max-w-6xl mx-auto px-6 text-center">  
+            <p>© 2026 RemontSPB. Все права защищены.</p>  
+        </div>  
+    </footer>  
+  
+</body>  
+</html>  
